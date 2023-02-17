@@ -1,0 +1,6 @@
+
+gunicorn
+line-bot-sdk
+Flask==2.2.2
+opencv-python
+numpy
