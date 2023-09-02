@@ -1,0 +1,114 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://assets.website-files.com/5f856c32c11b76a1075de44b/6421c5ceb4c0c71cacea980d_61c5b7558be2553369310200_61b860293613d1088a0a6612_coolors-min.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    },
+    "offsetTop": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Coolors",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "4.2",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "創建和瀏覽調色板",
+            "margin": "none",
+            "position": "relative",
+            "wrap": true
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "Download",
+          "uri": "https://play.google.com/store/apps/details?id=co.coolors.android&hl=zh_TW&gl=US"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "Website",
+          "uri": "https://coolors.co/"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}

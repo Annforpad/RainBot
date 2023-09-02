@@ -1,0 +1,107 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://play-lh.googleusercontent.com/OEq1Yz_3IX0WGTAbhg2GWU9M_3JqZvmMoC_yNu3esAlaZi2tGvI44SblOuXpqUpz9Ow",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    },
+    "offsetTop": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "AI藝術生成器& AI頭像，AI照片編輯器，AI視頻生成器",
+        "weight": "bold",
+        "size": "xl",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "4.3",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "一鍵 AI 藝術照片編輯生成器：動漫、漫畫、3D 數字藝術、賽博朋克、未來藝術",
+            "margin": "none",
+            "position": "relative",
+            "wrap": true
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "Download",
+          "uri": "https://play.google.com/store/apps/details?id=com.energysh.quickarte&hl=zh_TW&gl=US"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}

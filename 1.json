@@ -1,0 +1,105 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://www.popsci.com/uploads/2023/06/23/image-1.jpeg?auto=webp&width=1440&height=1080",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Adobe Creative Cloud",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "4.0",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "開始使用 Creative Cloud。管理您的作品及下載應用程式。",
+            "margin": "none",
+            "position": "relative",
+            "wrap": true
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "Download",
+          "uri": "https://play.google.com/store/apps/details?id=com.adobe.cc&hl=zh_TW&gl=US"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}

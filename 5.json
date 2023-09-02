@@ -1,0 +1,106 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://dl-file.cyberlink.com/web/upload-file/product/enu/2022/8/ogImage_PowerDirector-365_21.0_20220824030354380.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    },
+    "offsetTop": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "PowerDirector 365",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "4.0",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "YouTube & Instagram 影片最佳編輯工具，打造令人驚豔的質感影音作品！",
+            "margin": "none",
+            "position": "relative",
+            "wrap": true
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "Download",
+          "uri": "https://play.google.com/store/apps/details?id=com.cyberlink.powerdirector.DRA140225_01&hl=zh_TW&gl=US"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}
