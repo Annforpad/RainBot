@@ -1,0 +1,135 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "使用同意書",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "為了讓您能夠安心的使用 Rain Bot 的各項服務與資訊，特此向您說明 Rain Bot 將如何使用您所上傳的圖片及產出之色票卡，以保障您的權益，請詳閱下列內容：",
+            "wrap": true,
+            "margin": "sm",
+            "text-align": "justify"
+          },
+          {
+            "type": "text",
+            "text": "一、上傳圖片的處理方式",
+            "weight": "bold",
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "Rain Bot 將自動從圖片汲取色彩，任何上傳的圖片皆僅在雲端伺服器處理，系統開發人員無法查看這些圖片，亦不會將其存取於其他裝置當中。",
+            "margin": "sm",
+            "wrap": true,
+            "text-align": "justify"
+          },
+          {
+            "type": "text",
+            "text": "二、色票卡的利用方式",
+            "weight": "bold",
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "◦ 由您上傳的圖片產生之色票卡，將保留於系統開發人員的雲端儲存空間，其檔名為亂碼以保護您的隱私。",
+            "margin": "sm",
+            "wrap": true,
+            "text-align": "justify"
+          },
+          {
+            "type": "text",
+            "text": "◦ 系統開發人員會挑選部分色票卡，展示於 Rain Bot 官網（http://rainbot.com.tw）之藝廊，供網站訂閱者瀏覽、下載，展示前不另作通知。",
+            "margin": "sm",
+            "wrap": true,
+            "text-align": "justify"
+          },
+          {
+            "type": "text",
+            "text": "◦ Rain Bot 官網藝廊的訂閱費用為 $1/月，Rain Bot 將不會與您分配任何訂閱所得，願您體諒系統開發人員提供服務之用心，同意其作為系統開發人員的報酬。",
+            "margin": "sm",
+            "wrap": true,
+            "text-align": "justify"
+          },
+          {
+            "type": "text",
+            "text": "三、Rain Bot 置入廣告",
+            "weight": "bold",
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "Rain Bot 於每次提出配色方案後，會放置與創作工具相關的廣告，廣告提供您參考，並非強迫關注或下載。",
+            "margin": "sm",
+            "wrap": true,
+            "text-align": "justify"
+          },
+          {
+            "type": "text",
+            "text": "四、同意條款之修正",
+            "margin": "lg",
+            "weight": "bold",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "本同意條款將因應需求隨時進行修正，修正後的條款將以訊息方式通知。",
+            "margin": "sm",
+            "wrap": true,
+            "text-align": "justify"
+          },
+          {
+            "type": "text",
+            "text": "如同意以上條款，請按下「同意」鍵，開始享受 Rain Bot 配色服務。",
+            "margin": "lg",
+            "wrap": true,
+            "weight": "bold",
+            "text-align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "action": {
+          "type": "postback",
+          "label": "同意",
+          "data": "userid"
+        },
+        "color": "#FFFFFF",
+        "height": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  },
+  "styles": {
+    "footer": {
+      "backgroundColor": "#33D150"
+    }
+  }
+}
